@@ -1,7 +1,9 @@
+package org.example;
+
 import java.util.HashMap;
 import java.util.Map;
 
- class Solution {
+    class Solution {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> numMap = new HashMap<>();
         int n = nums.length;
@@ -17,7 +19,24 @@ import java.util.Map;
         return new int[]{}; // No solution found
     }
 
+    static class stringreverse {
+
+        public String Reversestring() {
+
+
+        String name = "java";
+        StringBuilder sb = new StringBuilder(String.valueOf(name));
+        return  sb.reverse().toString();
+    }
+    }
+
     public static void main(String[] args) {
+
+        stringreverse rev= new stringreverse();
+        System.out.println(rev.Reversestring());
+
+
+
         Solution solution = new Solution();
 
         int[] nums = {2, 7, 11, 15};
