@@ -20,14 +20,16 @@ import java.util.Map;
     }
 
     static class stringreverse {
-
+// using string builder
         public String Reversestring() {
-
-
         String name = "java";
         StringBuilder sb = new StringBuilder(String.valueOf(name));
         return  sb.reverse().toString();
     }
+
+    // Solve without using StringBuilder.
+
+
     }
 
     public static void main(String[] args) {
@@ -35,6 +37,9 @@ import java.util.Map;
         stringreverse rev= new stringreverse();
         System.out.println(rev.Reversestring());
 
+        //palindrom
+        Palindrom palindrom=new Palindrom();
+        palindrom.palidrom();
 
 
         Solution solution = new Solution();
@@ -51,4 +56,6 @@ import java.util.Map;
             System.out.println("No solution found.");
         }
     }
+
+
 }
