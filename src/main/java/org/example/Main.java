@@ -37,15 +37,6 @@ import java.util.Map;
         stringreverse rev= new stringreverse();
         System.out.println(rev.Reversestring());
 
-        //palindrom
-        Palindrom palindrom=new Palindrom();
-        palindrom.palidrom();
-
-        MoveZeros moveZeros=new MoveZeros();
-        moveZeros.Move_Zeros();
-
-        moveZeros.Move_Zeros_Oneloop();
-
 
         Solution solution = new Solution();
 

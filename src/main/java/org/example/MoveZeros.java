@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class MoveZeros {
 
-    public void Move_Zeros() {
+    public static void main(String[] args) {
         int a[] = {1, 0, 2, 0, 4};
 
         //need to set pointer

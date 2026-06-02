@@ -1,7 +1,7 @@
 package org.example;
 
 public class Palindrom {
-        public void palidrom() {
+    public static void main(String[] args) {
             String name = "madam"; // Example input
 
             // Use StringBuilder to reverse the string
