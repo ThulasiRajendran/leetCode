@@ -41,6 +41,11 @@ import java.util.Map;
         Palindrom palindrom=new Palindrom();
         palindrom.palidrom();
 
+        MoveZeros moveZeros=new MoveZeros();
+        moveZeros.Move_Zeros();
+
+        moveZeros.Move_Zeros_Oneloop();
+
 
         Solution solution = new Solution();
 
